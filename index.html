@@ -1071,7 +1071,7 @@
         </div>
       </div>
       <div class="hero-photo">
-        <img class="is-active" src="images/business-owners-networking-at-a-corporate-expo.jpg" alt="Business owners networking at a corporate expo" width="825" height="1100" fetchpriority="high" />
+        <img class="is-active" data-cms-field="hero_image" src="images/business-owners-networking-at-a-corporate-expo.jpg" alt="Business owners networking at a corporate expo" width="825" height="1100" fetchpriority="high" />
         <img src="images/industry-conference-presentation.jpg" alt="Industry conference presentation" width="1100" height="825" />
         <img src="images/event-shbng-networking.jpg" alt="Shellharbour and Beyond networking group meetup" width="1100" height="672" />
         <div class="hero-dots">
@@ -1708,6 +1708,8 @@
             el.setAttribute('href', 'tel:' + value.replace(/[^+\d]/g, ''));
             var label = el.querySelector('.phone-text');
             (label || el).textContent = value;
+          } else if (el.tagName === 'IMG') {
+            el.setAttribute('src', value);
           } else if (el.tagName === 'DIV' && el.classList.contains('num')) {
             el.textContent = value;
             el.setAttribute('data-count', value);
