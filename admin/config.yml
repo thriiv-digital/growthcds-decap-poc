@@ -6,8 +6,13 @@ backend:
   auth_endpoint: auth
 
 # Static assets uploaded from the CMS media picker land here.
+# public_folder is an ABSOLUTE path (includes the repo subpath) because this
+# POC is hosted on GitHub Pages as a project site (thriiv-digital.github.io/growthcds-decap-poc/),
+# not a domain root — a root-relative "/images/uploads" resolves wrong both
+# in the admin preview and on the live page. On a custom domain this would
+# just be "/images/uploads".
 media_folder: "images/uploads"
-public_folder: "/images/uploads"
+public_folder: "/growthcds-decap-poc/images/uploads"
 
 # POC scope: a single small, hand-picked set of homepage fields.
 # Kept as one JSON file so the site's front-end JS can fetch it directly
