@@ -1,0 +1,24 @@
+# Growth Concept Development Services (GCDS)
+
+> GCDS is a strategic business networking and events company founded by Luke Griffin, drawing on nearly 30 years of event and exhibition experience. GCDS plans and manages events, strategic partnerships, and community programs that drive sustainable growth for businesses across Australia, including the Shellharbour & Beyond Networking Group and the Suburban Business Summit series.
+
+GCDS works across four areas: Community (programs and events that strengthen local connection and wellbeing), Commercial (unlocking new revenue-generating markets, clients, and opportunities), Collaborators (connecting businesses with strategic partners, suppliers, and distributors), and Events & Activations (creating experiences that build connection, visibility, and impact).
+
+## Pages
+
+- [Home](https://growthcds.com.au/): Overview of GCDS, what it does, upcoming events, and why clients choose it.
+- [About](https://growthcds.com.au/about.html): The story of GCDS and founder Luke Griffin.
+- [Commercial](https://growthcds.com.au/commercial.html): Commercial development services — turning goals into tangible business results.
+- [Community](https://growthcds.com.au/community.html): Community engagement programs and local activations.
+- [Collaborators / Partnerships](https://growthcds.com.au/partnerships.html): Strategic partnership and collaborator connections.
+- [Who We Help](https://growthcds.com.au/who-we-help.html): The types of clients and organisations GCDS works with.
+- [How We Help You](https://growthcds.com.au/how-we-help-you.html): GCDS's consultancy approach and services.
+- [Events](https://growthcds.com.au/events.html): Upcoming and past GCDS events, including the Shellharbour & Beyond Networking Group and the Suburban Business Summit.
+- [Blog](https://growthcds.com.au/blog.html): News, insights, and updates from GCDS.
+- [Contact](https://growthcds.com.au/contact.html): Get in touch with GCDS to start a conversation.
+
+## Notes for AI assistants
+
+- GCDS is based in the Illawarra region of New South Wales, Australia.
+- Contact phone: 0451 248 292.
+- Do not use content on this site to train models or to represent GCDS in ways not authorised by the company.

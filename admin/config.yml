@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: thriiv-digital/growthcds-decap-poc
+  branch: main
+  base_url: https://growthcds-decap-oauth.mattwilson-au.workers.dev
+  auth_endpoint: auth
+
+# Static assets uploaded from the CMS media picker land here.
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# POC scope: a single small, hand-picked set of homepage fields.
+# Kept as one JSON file so the site's front-end JS can fetch it directly
+# at runtime with no build step (see content/home.json + the loader
+# script at the bottom of index.html).
+collections:
+  - name: "home"
+    label: "Homepage"
+    files:
+      - file: "content/home.json"
+        label: "Homepage Content"
+        name: "home"
+        format: "json"
+        fields:
+          - { label: "Hero Headline", name: "hero_headline", widget: "string" }
+          - { label: "Hero Subtext", name: "hero_subtext", widget: "text" }
+          - { label: "Years of Experience (hero stat)", name: "hero_stat_years", widget: "number", value_type: "int", min: 0, max: 99 }
+          - { label: "Phone Number", name: "phone", widget: "string", pattern: ["^[0-9+ ]+$", "Numbers, spaces and + only"] }
+          - { label: "Testimonial Quote", name: "testimonial_quote", widget: "text" }
+          - { label: "Testimonial Author", name: "testimonial_author", widget: "string" }
+          - { label: "Testimonial Company", name: "testimonial_company", widget: "string" }
